@@ -54,6 +54,10 @@ namespace CajeroAutomatico
             Devuelve002 = devuelve002;
             Devuelve001 = devuelve001;
         }
+        public Ticket()
+        {
+            
+        }
 
         public string toString()
         {
@@ -74,24 +78,6 @@ namespace CajeroAutomatico
             "Monedas de " + mon2cen.Valor + ": " + Devuelve002 + "\n" +
             "Monedas de " + mon1cen.Valor + ": " + Devuelve001 + "\n";
 
-        }
-        public void actualizarDinero(Cajero cajero1)
-        {
-            cajero1.Unidades500 = cajero1.Unidades500 - cajero1.getBilletes500();
-            cajero1.Unidades200 = cajero1.Unidades200 - cajero1.getBilletes200();
-            cajero1.Unidades100 = cajero1.Unidades100 - cajero1.getBilletes100();
-            cajero1.Unidades50 = cajero1.Unidades50 - cajero1.getBilletes50();
-            cajero1.Unidades20 = cajero1.Unidades20 - cajero1.getBilletes20();
-            cajero1.Unidades10 = cajero1.Unidades10 - cajero1.getBilletes10();
-            cajero1.Unidades5 = cajero1.Unidades5 - cajero1.getBilletes5();
-            cajero1.Unidades2 = cajero1.Unidades2 - cajero1.getMonedas2();
-            cajero1.Unidades1 = cajero1.Unidades1 - cajero1.getMonedas1();
-            cajero1.Unidades05 = cajero1.Unidades05 - cajero1.getCen50();
-            cajero1.Unidades02 = cajero1.Unidades02 - cajero1.getCen20();
-            cajero1.Unidades01 = cajero1.Unidades01 - cajero1.getCen10();
-            cajero1.Unidades005 = cajero1.Unidades005 - cajero1.getCen5();
-            cajero1.Unidades002 = cajero1.Unidades002 - cajero1.getCen2();
-            cajero1.Unidades001 = cajero1.Unidades001 - cajero1.getCen1();
         }
     }
 }

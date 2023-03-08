@@ -6,7 +6,6 @@ namespace CajeroAutomatico
 {
     public class Cajero
     {
-
         public Cajero(int unidades500, int unidades100, int unidades20, int unidades5, int unidades1, int unidades02, int unidades005, int unidades001)
         {
             this.Unidades500 = unidades500;
@@ -54,7 +53,6 @@ namespace CajeroAutomatico
             Unidades005 = unidades005;
             Unidades002 = unidades002;
             Unidades001 = unidades001;
-
         }
 
         public decimal _dinero;
@@ -533,26 +531,27 @@ namespace CajeroAutomatico
 
         public Ticket devolverDinero()
         {
-
-            Ticket t1 = new Ticket(getBilletes500(), getBilletes200(), getBilletes100()
-            , getBilletes50(), getBilletes20(), getBilletes10(), getBilletes5(), getMonedas2()
-            , getMonedas1(), getCen50(), getCen20()
-            , getCen10(), getCen5(), getCen2(), getCen1());
-            Ticket t2 = new Ticket(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-
-            if (_dineroasacar.getDinero() > _dinero)
+            if (_dineroasacar.getDinero() < 0.01M)
+            {
+                Console.WriteLine("El cajero no puede retirar cantidades negativas o nulas, por favor ingrese otra canrtidad\n");
+                return new Ticket();
+            }
+            else if (_dineroasacar.getDinero() > _dinero)
             {
                 Console.WriteLine("El cajero automático no dispone de más dinero, por favor acuda al más cercano\n");
-                return t2;
+                return new Ticket();
             }
             else if (_dineroasacar.getDinero() != _dinero1)
             {
                 Console.WriteLine("El cajero no dispone de los cambios disponibles para retirar su dinero, por favor acuda al más cercano\n");
-                return t2;
+                return new Ticket();
             }
             else
             {
-
+                Ticket t1 = new Ticket(getBilletes500(), getBilletes200(), getBilletes100()
+                , getBilletes50(), getBilletes20(), getBilletes10(), getBilletes5(), getMonedas2()
+                , getMonedas1(), getCen50(), getCen20()
+                , getCen10(), getCen5(), getCen2(), getCen1());
                 Console.WriteLine(t1.toString());
                 actualizarDinero();
                 return t1;
