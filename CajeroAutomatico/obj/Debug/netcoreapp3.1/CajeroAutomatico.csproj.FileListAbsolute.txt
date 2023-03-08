@@ -1,0 +1,14 @@
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.csproj.AssemblyReference.cache
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.AssemblyInfoInputs.cache
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.AssemblyInfo.cs
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.csproj.CoreCompileInputs.cache
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.exe
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.deps.json
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.runtimeconfig.json
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.runtimeconfig.dev.json
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.dll
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\bin\Debug\netcoreapp3.1\CajeroAutomatico.pdb
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.dll
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.pdb
+C:\Users\cmunozj\source\repos\CajeroAutomatico\CajeroAutomatico\obj\Debug\netcoreapp3.1\CajeroAutomatico.genruntimeconfig.cache
